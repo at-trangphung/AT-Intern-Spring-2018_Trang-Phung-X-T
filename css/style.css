@@ -1,0 +1,703 @@
+/*====================reset css=================*/
+*{  
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+} 
+h2{
+  font-weight: normal;
+}
+li{
+  list-style: none;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+li a {
+  color: black;  
+}
+body{
+  background-color: #f5f6f6;
+  width: 100%;
+}
+/*============================common========================*/
+.clr {
+  content: "";
+  clear: both;
+  display: block;
+}
+.title-tour {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding:  5px 0;
+}
+.title-section{
+  display:flex;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.title-section a {
+  background-color: #fea93d;
+  text-transform: uppercase;
+  font-style: bold;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+.title-section a:hover {
+  background-color: #F39F34;
+}
+
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+/*====================HEADER-PAGE=======================*/
+
+.header-page {
+  background-color: #fff;
+}
+.header-page .container{
+  display: flex;
+}
+.header-page span{
+  font-weight: bolder;
+  color:#fea93d;
+}
+.logo{
+  width: 20%;
+}
+.menu-header {
+  width: 100%;
+  margin-top: 10px;
+}
+.contact-header{
+  float: right;
+  font-size: 13px;
+}
+.contact-header li{
+  display: inline-flex;
+  padding: 0 20px;
+}
+.contact-header p {
+  padding-bottom: 5px;
+}
+.nav-header{
+ font-size: 15px;
+}
+.nav-header li{
+  display: inline;
+  float: right;
+  margin: 10px 10px;
+}
+.nav-header ul {
+  text-transform: uppercase;
+  margin: 0 2%
+}
+.nav-header a:hover {
+  color: #fea93d;
+}
+.icon-telephone{
+  border: 2px solid #fea93d;
+  border-radius: 100%;
+  margin-right: 7px;
+  padding: 0 5px;
+}
+.icon-header {
+  margin:  0 6px;
+}
+/*========================PANNER-PAGE==================================*/
+.section-banner{
+  clear: both;
+  background-image:url('../images/panel.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 966px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.content-banner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.content-banner a {
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  text-align: center;
+  cursor: pointer;
+  margin: 5% 2%;
+  border: 1px solid #fff;
+}
+.content-banner a:hover {
+  background-color: #29C8C6;
+}
+.content-banner span{
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-top: 10px;
+  text-align: center;
+  display: block;
+}
+/*================================INTERESTING-TOUR===============================*/
+.section-interesting-tour {
+  display: flex;
+  padding: 30px 0 50px;
+  position: relative;
+  margin-top: -140px;
+}
+.section-interesting-tour h2{
+  color: #fff;
+}
+.tour-interesting-list li {
+  
+  width: 25%;
+  float: left;
+  height: auto;
+  padding: 0 10px;
+  
+}
+.box-item {
+  border: 1px solid #BFB9B8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.destination-img:hover {
+  opacity: 0.7;
+}
+.destination-title{
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+.tour-interesting-list ul {
+  margin: 0 -10px;
+}
+.tour-interesting-list img {
+  width: 100%;
+  height: 250px;
+  padding: 0;
+}
+.cost{
+  padding: 5px 15px;
+}
+.cost span{
+  color: #29C8C6;
+  font-weight: bold;
+}
+
+/*=======================================SECTION-SEARCH================================*/
+
+.section-search{
+  display: flex; 
+  padding: 2% 0;
+  background-color: #fff;
+}
+.section-search .container {
+  display: flex;
+}
+.content-search{
+  width: 80%;
+  background-color: white;
+  display: inline-block;
+}
+.tabs-link {
+  display: inline-flex;
+}
+.tabs-link li a {
+  text-transform: uppercase;
+  font-size: 25px;
+  padding-right: 30px;
+} 
+.tabs-link li span {
+  text-transform: none;
+  font-size: 17px;
+  padding-right: 30px;
+  color:  #585854;
+} 
+.tab-content input{
+  height: 30px;
+  width: 20%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  padding-left: 20px;
+}
+.tab-content span {
+  color: #ddd;
+}
+.tab-content button{
+  height: 35px;
+  width: 100px;
+  background-color: #29C8C6;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.tab-content {
+  margin-top: 15px;
+}
+.tab-content .input-location {
+  width: 40%;
+}
+.tab-content button:hover{
+  background-color: #0DB5B3;
+}
+.content-content1{
+  display: none;
+}
+.tabs-link a:hover, .tabs-link span:hover{
+  font-style: italic;
+  color: #1688CA;
+}
+
+/*====================================ORTHER-TOUR================================*/
+.section-tour-orther-list {
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.section-tour-orther-list li {
+  float: left;
+  width: calc(100%/3);
+  padding: 10px;
+
+}
+.tour-orther-list{
+  margin: 0 -10px;
+}
+.tour-orther-list-item {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.tour-image{
+  color: #fff;
+}
+.tour-image p{
+  font-weight: normal;
+  font-size: 15px;
+}
+.title-orther-tour{
+  padding: 5% 10%;
+}
+.title-orther-tour p{
+  color: #969696;
+}
+.detail-tour-item-big{
+  position: relative;
+}
+.detail-tour-item-big a img{
+  width: 100%;
+  margin-bottom: -5px;
+}
+.detail-tour-item-big span{
+  padding: 7% 0 0 65px;
+}
+.short-info {
+  position: absolute;
+  top: 70%;
+  display: flex;
+  padding-left: 5px;
+}
+.short-info-item-small {
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+}
+.short-info-item-small span{
+  padding: 5% 0 0 120px;
+  font-weight: bolder;    
+}
+.icon-tour-small{
+  margin: 0 15px;
+  display: block;
+}
+
+.more {
+  float: right;
+  padding: 10px;
+}
+.more img{
+  margin-left: 10px;
+}
+.more a:hover {
+  color: #1688CA;
+}
+.detail-tour-item-small {
+  background-repeat: no-repeat;
+}
+.detail-tour-item-small span{
+  float: right;
+}
+/*============================================SUPPORT-ONLINE==============================*/
+.support-online {
+  background-image: url("./images/support-panel.jpg");
+  text-transform: uppercase;
+  color:var(--white-color);
+  color: #fff;
+  opacity: 0.7;
+  filter: alpha(opacity=50); 
+  justify-content: center;
+  background-attachment: fixed;
+  padding: 2% 0 5% 0;
+}
+.support-online h1{
+  font-size: 30px;
+  margin-left: 10%;
+  padding-bottom: 3%;
+}
+.support-online-list{
+  display: flex;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 35px 0;
+  border-radius: 5px;
+  margin: 0 20%;
+}
+.support-online-list ul {
+
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.support-online-list li {
+  width: 25%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+.support-online-list li:last-of-type {
+  border-right: none;
+}
+.support-online-icon a{
+  display: inline-flex;
+  height: 32px;
+  width: 32px;
+  margin-left: 10px;
+}
+
+.support-online-icon a:hover
+{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/*=======================================SECTION-ACTIVITY=========================*/
+.section-active-image{
+  margin-top: 3%;
+}
+.title-section-activity{
+  margin: 3% 12%;
+}
+.active-list {
+  margin-left: -10px;
+}
+.section-active-image ul{
+  display: flex;
+}
+.section-active-image img {
+  width: 100%;
+}
+.active-image li {
+  position: relative;
+  float: left;
+  height: auto;
+  color: #fff;
+  padding:0 10px;
+  width: 25%;
+  
+}
+.activive-item {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.6);
+}
+.image-activity:hover {
+  opacity: 0.7;
+}
+.active-image img{
+  height: 350px;
+  opacity: 0.8;
+  filter: alpha(opacity=80); 
+}
+.title-image-act {
+  position: absolute;
+  left: 20px;
+  top: 295px;
+  padding: 0 10% 0 0;
+}
+.time-activity{
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.time-act-left{
+  float: left;
+
+}
+.time-act-right{
+  float: right;
+
+}
+/*==================================FOOTER-PAGE================================*/
+.footer-page{
+  background-color: #fff;
+}
+.top-footer-page{
+  display: inline-flex;
+  width: 100%;
+  margin-top: 7%;
+}
+h2{
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+h1{
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+.top-footer-page h4{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.top-footer-page li {
+  padding-bottom: 5px;
+}
+.top-footer-page span:hover ,.top-footer-page a:hover{
+  font-style: italic;
+  color: #1688CA;
+}
+.information{
+  width: 15%;
+  display: inline-block;
+}
+.social{
+  width: 15%;
+  margin: 0 10%;
+
+}
+.social li{
+  display: flex;
+}
+.social a{
+  padding-right: 3px;
+}
+.social h4 {
+  padding-left: 5px ;
+}
+.send-email-footer-page {
+  width: 40%;
+}
+.form-send-email {
+  max-width:100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.form-send-email input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-right: none;
+  float: left;
+  width: 80%;
+  height: auto;
+  background: #f1f1f1;
+}
+.button-img {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: auto;
+}
+.form-send-email button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.form-send-email img {
+  margin-left: -10px;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+.button-img:hover {
+  opacity: 0.7;
+}
+
+
+/*=================================================*/
+.copyright{
+  padding: 2% 0;
+}
+.copyright p{
+  float: left;
+}
+.copyright .mail-designer{
+  float: right;
+}
+.copyright a{
+  color: #0BA91B;
+}
+
+@media screen and (min-width:1200px){
+  .container{
+    width: 1170px;
+  }
+
+}
+@media screen and (min-width:1024px) and (max-width: 1199px){
+  .container{
+    width: 970px;
+  }
+  .destination-item .destination-name .destination-title a{
+    font-size: 13px;
+  }
+  .short-info-item-small span {
+    padding: 5% 0 0 70px;
+    font-weight: bolder;
+  }
+  .short-info{
+    top:60%;
+  }
+  
+  .short-info-item-small{
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+  .container{
+    width: 750px;
+  }
+  .menu-header .nav-header li a{
+    font-size: 10px;
+
+  }
+  .tour-interesting-list li{
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .tour-orther-list li{
+    width: 100%;
+  }
+  .active-list li{
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .information {
+    margin-left: 25px;  
+  }
+  .send-email-footer-page .form-send-email input {
+    height: 25px;
+  }
+
+}
+@media screen and (min-width:480px) and (max-width: 767px){
+  .container{
+    width: 460px;
+  }
+}
+@media screen and (min-width:320px) and (max-width: 479px){
+  .container{
+    width: 330px;
+  }
+  .menu-header .nav-header li a{
+    font-size: 10px;
+
+  }
+  .destination-item .destination-name .destination-title a{
+    font-size: 10px;
+  }
+
+  .container .logo img{
+    width: 50px;
+  }
+  .content-search .tabs-link a {
+    font-size: 15px;
+  }
+  .content-search .tabs-link span{
+    font-size: 10px;
+    padding-right: 0px;
+  }
+  .tab-content input{
+    width:  100%;
+  }
+  .tour-interesting-list li{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+  .tour-orther-list li{
+    width: 100%;
+  }
+  .active-list li{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .information {
+    margin-left: 25px;  
+  }
+  .short-info-item-small span {
+    padding: 5% 0 0 70px;
+    font-weight: bolder;
+  }
+  .send-email-footer-page .form-send-email input {
+    height: 25px;
+  }
+  .support-online-list li{
+    width: 100%;
+    border-right: none;
+  }
+  .title-section {
+    font-size: 10px;
+  }
+  .contact-header img{
+    width: 20px;
+    height: 20px;
+
+  }
+  .contact-header{
+    font-size: 10px;
+  }
+  .nav-header a{
+    font-size: 10px;
+  }
+  .top-footer-page{
+    font-size: 10px;
+  }
+  .footer-infomation {
+    display: inline-block;
+  }
+  .information {
+    float: left;
+    width: 50%;
+  }
+  .social{
+    width: 50%;
+  }
+
+}
